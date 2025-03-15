@@ -11,6 +11,10 @@
 		3B73B8292CE44630002A0575 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73B8282CE44630002A0575 /* ContentView.swift */; };
 		3B73B82B2CE44632002A0575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B73B82A2CE44632002A0575 /* Assets.xcassets */; };
 		3B73B82E2CE44632002A0575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B73B82D2CE44632002A0575 /* Preview Assets.xcassets */; };
+		3B73B8352CE499AB002A0575 /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73B8342CE499AB002A0575 /* OpeningView.swift */; };
+		3B73B8372CE4AF4F002A0575 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B73B8362CE4AF4F002A0575 /* click.mp3 */; };
+		3B73B8392CE4B3D6002A0575 /* neko1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B73B8382CE4B3D6002A0575 /* neko1.mp3 */; };
+		3B73B83B2CE4BC0F002A0575 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B73B83A2CE4BC0F002A0575 /* bgm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3B73B8282CE44630002A0575 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B73B82A2CE44632002A0575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B73B82D2CE44632002A0575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B73B8342CE499AB002A0575 /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		3B73B8362CE4AF4F002A0575 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		3B73B8382CE4B3D6002A0575 /* neko1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = neko1.mp3; sourceTree = "<group>"; };
+		3B73B83A2CE4BC0F002A0575 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				3B73B8262CE44630002A0575 /* countupApp.swift */,
+				3B73B8342CE499AB002A0575 /* OpeningView.swift */,
 				3B73B8282CE44630002A0575 /* ContentView.swift */,
 				3B73B82A2CE44632002A0575 /* Assets.xcassets */,
+				3B73B8362CE4AF4F002A0575 /* click.mp3 */,
+				3B73B8382CE4B3D6002A0575 /* neko1.mp3 */,
+				3B73B83A2CE4BC0F002A0575 /* bgm.mp3 */,
 				3B73B82C2CE44632002A0575 /* Preview Content */,
 			);
 			path = countup;
@@ -125,7 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B73B83B2CE4BC0F002A0575 /* bgm.mp3 in Resources */,
 				3B73B82E2CE44632002A0575 /* Preview Assets.xcassets in Resources */,
+				3B73B8392CE4B3D6002A0575 /* neko1.mp3 in Resources */,
+				3B73B8372CE4AF4F002A0575 /* click.mp3 in Resources */,
 				3B73B82B2CE44632002A0575 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				3B73B8292CE44630002A0575 /* ContentView.swift in Sources */,
 				3B73B8272CE44630002A0575 /* countupApp.swift in Sources */,
+				3B73B8352CE499AB002A0575 /* OpeningView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
